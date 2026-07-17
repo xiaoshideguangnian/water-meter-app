@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">供排水查询</string>
+    <string name="login_title">供排水总公司</string>
+    <string name="hint_cust">客户代码</string>
+    <string name="hint_user">用户名</string>
+    <string name="hint_pwd">密码</string>
+    <string name="hint_captcha">验证码</string>
+    <string name="btn_login">登 录</string>
+    <string name="btn_refresh_captcha">换一张</string>
+    <string name="btn_refresh">刷新数据</string>
+    <string name="btn_export_csv">导出CSV</string>
+    <string name="btn_logout">退出</string>
+    <string name="tabid_hint">TabID</string>
+    <string name="status_loading">加载中...</string>
+    <string name="status_ready">就绪</string>
+    <string name="status_login_success">登录成功</string>
+    <string name="status_login_failed">登录失败</string>
+</resources>
