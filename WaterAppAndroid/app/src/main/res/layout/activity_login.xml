@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="供排水总公司"
+            android:textSize="28sp"
+            android:textColor="#07c160"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_cust_code"
+            android:hint="客户代码"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_user_code"
+            android:hint="用户名"
+            android:inputType="text"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="密码"
+            android:inputType="textPassword"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_captcha"
+                android:hint="验证码"
+                android:inputType="text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/iv_captcha"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:text="登 录"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#07c160"
+            android:layout_marginTop="24dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#666666"/>
+    </LinearLayout>
+</ScrollView>
