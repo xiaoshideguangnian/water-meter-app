@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">供排水数据查询</string>
+    <string name="login_title">供排水总公司</string>
+    <string name="logout">退出</string>
+    <string name="refresh">刷新</string>
+</resources>
